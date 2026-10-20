@@ -1,0 +1,623 @@
+2022-03-15 12:00:51 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.circles.health.patient.PatientServiceApplicationTests], using SpringBootContextLoader
+2022-03-15 12:00:51 INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.circles.health.patient.PatientServiceApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-03-15 12:00:51 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.circles.health.patient.PatientServiceApplicationTests]: PatientServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-03-15 12:00:51 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.circles.health.patient.PatientServiceApplication for test class com.circles.health.patient.PatientServiceApplicationTests
+2022-03-15 12:00:51 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-03-15 12:00:51 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4ef27d66, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@362a019c, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@1d9bec4d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5c48c0c0, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@10c8f62, org.springframework.test.context.support.DirtiesContextTestExecutionListener@674c583e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@25f7391e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3f23a3a0, org.springframework.test.context.event.EventPublishingTestExecutionListener@5ab14cb9, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5fb97279, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@439a8f59, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@61861a29, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@31024624, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@25bcd0c7, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@32cb636e]
+2022-03-15 12:00:57 WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/brajendrasingh/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/Users/brajendrasingh/.m2/repository/org/json/json/20141113/json-20141113.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-03-15 12:00:57 INFO  c.c.h.p.PatientServiceApplicationTests - Starting PatientServiceApplicationTests using Java 11.0.10 on Techments-MacBook-Pro.local with PID 41407 (started by brajendrasingh in /Users/brajendrasingh/Documents/Production_Environment/28-2-2022/circleshealthback/patient-service)
+2022-03-15 12:00:57 INFO  c.c.h.p.PatientServiceApplicationTests - The following profiles are active: prod
+2022-03-15 12:00:58 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-15 12:00:58 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 282 ms. Found 11 JPA repository interfaces.
+2022-03-15 12:00:59 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@161dd92a' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-15 12:00:59 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-15 12:01:00 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-15 12:01:00 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-03-15 12:01:00 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-15 12:01:00 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-03-15 12:01:03 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-03-15 12:01:03 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-15 12:01:04 INFO  o.h.id.enhanced.TableGenerator - HHH000398: Explicit segment value for id generator [hibernate_sequences.sequence_name] suggested; using default [default]
+2022-03-15 12:01:05 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-15 12:01:05 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-15 12:01:07 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-15 12:01:08 WARN  o.s.w.c.s.GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'wellnessCheckController' method 
+com.circles.health.patient.controller.WellnessCheckController#saveWellnessCheck1(WellnessQuestion)
+to {POST [/patient-service/savewellnesscheck]}: There is already 'wellnessCheckController' bean method
+com.circles.health.patient.controller.WellnessCheckController#saveWellnessCheck(WellnessQuestion) mapped.
+2022-03-15 12:01:08 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-15 12:01:08 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-03-15 12:01:09 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-03-15 12:01:09 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-03-15 12:01:09 ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'wellnessCheckController' method 
+com.circles.health.patient.controller.WellnessCheckController#saveWellnessCheck1(WellnessQuestion)
+to {POST [/patient-service/savewellnesscheck]}: There is already 'wellnessCheckController' bean method
+com.circles.health.patient.controller.WellnessCheckController#saveWellnessCheck(WellnessQuestion) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:123)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:350)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:355)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$7(ClassBasedTestDescriptor.java:350)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:349)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$4(ClassBasedTestDescriptor.java:270)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:269)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:259)
+	at java.base/java.util.Optional.orElseGet(Optional.java:369)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:258)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:101)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:100)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:79)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'wellnessCheckController' method 
+com.circles.health.patient.controller.WellnessCheckController#saveWellnessCheck1(WellnessQuestion)
+to {POST [/patient-service/savewellnesscheck]}: There is already 'wellnessCheckController' bean method
+com.circles.health.patient.controller.WellnessCheckController#saveWellnessCheck(WellnessQuestion) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:669)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:635)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:332)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:395)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:76)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:299)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:297)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:266)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:225)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:213)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:206)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 82 common frames omitted
+2022-03-15 12:01:09 ERROR o.s.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@4ef27d66] to prepare test instance [com.circles.health.patient.PatientServiceApplicationTests@5e528476]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:350)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:355)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$7(ClassBasedTestDescriptor.java:350)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:349)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$4(ClassBasedTestDescriptor.java:270)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:269)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:259)
+	at java.base/java.util.Optional.orElseGet(Optional.java:369)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:258)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:101)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:100)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:79)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'wellnessCheckController' method 
+com.circles.health.patient.controller.WellnessCheckController#saveWellnessCheck1(WellnessQuestion)
+to {POST [/patient-service/savewellnesscheck]}: There is already 'wellnessCheckController' bean method
+com.circles.health.patient.controller.WellnessCheckController#saveWellnessCheck(WellnessQuestion) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:123)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 67 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'wellnessCheckController' method 
+com.circles.health.patient.controller.WellnessCheckController#saveWellnessCheck1(WellnessQuestion)
+to {POST [/patient-service/savewellnesscheck]}: There is already 'wellnessCheckController' bean method
+com.circles.health.patient.controller.WellnessCheckController#saveWellnessCheck(WellnessQuestion) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:669)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:635)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:332)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:395)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:76)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:299)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:297)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:266)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:225)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:213)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:206)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 82 common frames omitted
+2022-03-15 12:02:03 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.circles.health.patient.PatientServiceApplicationTests], using SpringBootContextLoader
+2022-03-15 12:02:03 INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.circles.health.patient.PatientServiceApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-03-15 12:02:03 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.circles.health.patient.PatientServiceApplicationTests]: PatientServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-03-15 12:02:03 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.circles.health.patient.PatientServiceApplication for test class com.circles.health.patient.PatientServiceApplicationTests
+2022-03-15 12:02:03 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-03-15 12:02:03 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@65e61854, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1568159, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4fcee388, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6f80fafe, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3af17be2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@f9879ac, org.springframework.test.context.transaction.TransactionalTestExecutionListener@37f21974, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5f4d427e, org.springframework.test.context.event.EventPublishingTestExecutionListener@6e521c1e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@224b4d61, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5d5d9e5, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@303e3593, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4ef27d66, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@362a019c, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@1d9bec4d]
+2022-03-15 12:02:08 WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/brajendrasingh/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/Users/brajendrasingh/.m2/repository/org/json/json/20141113/json-20141113.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-03-15 12:02:09 INFO  c.c.h.p.PatientServiceApplicationTests - Starting PatientServiceApplicationTests using Java 11.0.10 on Techments-MacBook-Pro.local with PID 41434 (started by brajendrasingh in /Users/brajendrasingh/Documents/Production_Environment/28-2-2022/circleshealthback/patient-service)
+2022-03-15 12:02:09 INFO  c.c.h.p.PatientServiceApplicationTests - The following profiles are active: prod
+2022-03-15 12:02:10 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-15 12:02:10 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 250 ms. Found 11 JPA repository interfaces.
+2022-03-15 12:02:11 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@49ca94a9' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-15 12:02:11 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-15 12:02:11 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-15 12:02:12 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-03-15 12:02:12 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-15 12:02:12 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-03-15 12:02:15 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-03-15 12:02:15 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-15 12:02:15 INFO  o.h.id.enhanced.TableGenerator - HHH000398: Explicit segment value for id generator [hibernate_sequences.sequence_name] suggested; using default [default]
+2022-03-15 12:02:17 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-15 12:02:17 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-15 12:02:19 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-15 12:02:20 WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-03-15 12:02:21 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/v2/api-docs'] with []
+2022-03-15 12:02:21 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/swagger-resources/**'] with []
+2022-03-15 12:02:21 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/swagger-ui.html'] with []
+2022-03-15 12:02:21 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/swagger-ui/**'] with []
+2022-03-15 12:02:21 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/configuration/**'] with []
+2022-03-15 12:02:21 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/webjars/**'] with []
+2022-03-15 12:02:21 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/public'] with []
+2022-03-15 12:02:21 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/v3/api-docs/**'] with []
+2022-03-15 12:02:21 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@50b1dfab, org.springframework.security.web.context.SecurityContextPersistenceFilter@c7008b4, org.springframework.security.web.header.HeaderWriterFilter@504a9352, org.springframework.web.filter.CorsFilter@5c85ed05, org.springframework.security.web.authentication.logout.LogoutFilter@1c3eeda4, com.circles.health.patient.security.JwtTokenFilter@6ce8bf64, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5122387, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@54418834, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@23657729, org.springframework.security.web.session.SessionManagementFilter@5a0b925a, org.springframework.security.web.access.ExceptionTranslationFilter@60a4595e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6ea1fc9]
+2022-03-15 12:02:21 INFO  c.c.h.p.PatientServiceApplicationTests - Started PatientServiceApplicationTests in 17.909 seconds (JVM running for 19.653)
+2022-03-15 12:02:21 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-15 12:02:21 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-03-15 12:02:23 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-03-15 13:05:39 INFO  c.c.h.p.PatientServiceApplication - Starting PatientServiceApplication using Java 11.0.10 on Techments-MacBook-Pro.local with PID 41737 (/Users/brajendrasingh/Documents/Production_Environment/28-2-2022/circleshealthback/patient-service/target/classes started by brajendrasingh in /Users/brajendrasingh/Documents/Production_Environment/28-2-2022/circleshealthback/patient-service)
+2022-03-15 13:05:39 INFO  c.c.h.p.PatientServiceApplication - The following profiles are active: prod
+2022-03-15 13:05:39 INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in /Users/brajendrasingh/.m2/repository/io/grpc/grpc-alts/1.41.0/grpc-alts-1.41.0.jar referenced one or more files that do not exist: file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-alts/1.41.0/grpc-auth-1.41.0.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-alts/1.41.0/grpc-grpclb-1.41.0.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-alts/1.41.0/grpc-protobuf-1.41.0.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-alts/1.41.0/grpc-stub-1.41.0.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-alts/1.41.0/protobuf-java-util-3.17.2.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-alts/1.41.0/proto-google-common-protos-2.0.1.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-alts/1.41.0/protobuf-java-3.17.2.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-alts/1.41.0/conscrypt-openjdk-uber-2.5.1.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-alts/1.41.0/google-auth-library-oauth2-http-0.22.2.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-alts/1.41.0/grpc-netty-shaded-1.41.0.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-alts/1.41.0/grpc-core-1.41.0.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-alts/1.41.0/grpc-protobuf-lite-1.41.0.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-alts/1.41.0/grpc-api-1.41.0.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-alts/1.41.0/google-http-client-jackson2-1.38.0.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-alts/1.41.0/google-http-client-1.38.0.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-alts/1.41.0/opencensus-contrib-http-util-0.24.0.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-alts/1.41.0/guava-30.1-android.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-alts/1.41.0/google-auth-library-credentials-0.22.2.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-alts/1.41.0/error_prone_annotations-2.9.0.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-alts/1.41.0/jsr305-3.0.2.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-alts/1.41.0/failureaccess-1.0.1.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-alts/1.41.0/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-alts/1.41.0/checker-compat-qual-2.5.5.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-alts/1.41.0/j2objc-annotations-1.3.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-alts/1.41.0/auto-value-annotations-1.7.4.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-alts/1.41.0/perfmark-api-0.23.0.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-alts/1.41.0/opencensus-api-0.24.0.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-alts/1.41.0/grpc-context-1.41.0.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-alts/1.41.0/gson-2.8.6.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-alts/1.41.0/annotations-4.1.1.4.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-alts/1.41.0/animal-sniffer-annotations-1.19.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-alts/1.41.0/httpclient-4.5.13.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-alts/1.41.0/httpcore-4.4.13.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-alts/1.41.0/jackson-core-2.11.3.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-alts/1.41.0/commons-logging-1.2.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-alts/1.41.0/commons-codec-1.11.jar
+2022-03-15 13:05:39 INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in /Users/brajendrasingh/.m2/repository/io/grpc/grpc-netty-shaded/1.41.0/grpc-netty-shaded-1.41.0.jar referenced one or more files that do not exist: file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-netty-shaded/1.41.0/grpc-core-1.41.0.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-netty-shaded/1.41.0/grpc-api-1.41.0.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-netty-shaded/1.41.0/guava-30.1-android.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-netty-shaded/1.41.0/error_prone_annotations-2.9.0.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-netty-shaded/1.41.0/perfmark-api-0.23.0.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-netty-shaded/1.41.0/failureaccess-1.0.1.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-netty-shaded/1.41.0/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-netty-shaded/1.41.0/jsr305-3.0.2.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-netty-shaded/1.41.0/checker-compat-qual-2.5.5.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-netty-shaded/1.41.0/j2objc-annotations-1.3.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-netty-shaded/1.41.0/gson-2.8.6.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-netty-shaded/1.41.0/annotations-4.1.1.4.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-netty-shaded/1.41.0/animal-sniffer-annotations-1.19.jar,file:/Users/brajendrasingh/.m2/repository/io/grpc/grpc-netty-shaded/1.41.0/grpc-context-1.41.0.jar
+2022-03-15 13:05:39 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-15 13:05:39 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-15 13:05:40 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-15 13:05:41 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 162 ms. Found 11 JPA repository interfaces.
+2022-03-15 13:05:41 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7abb2f32' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-15 13:05:41 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-15 13:05:41 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8991 (http)
+2022-03-15 13:05:41 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8991"]
+2022-03-15 13:05:41 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-03-15 13:05:41 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-03-15 13:05:41 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-03-15 13:05:41 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1984 ms
+2022-03-15 13:05:42 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-15 13:05:42 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-03-15 13:05:42 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-15 13:05:42 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-03-15 13:05:45 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-03-15 13:05:45 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-15 13:05:45 INFO  o.h.id.enhanced.TableGenerator - HHH000398: Explicit segment value for id generator [hibernate_sequences.sequence_name] suggested; using default [default]
+2022-03-15 13:05:47 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-15 13:05:47 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-15 13:05:48 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-15 13:05:49 WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-03-15 13:05:49 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/v2/api-docs'] with []
+2022-03-15 13:05:49 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/swagger-resources/**'] with []
+2022-03-15 13:05:49 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/swagger-ui.html'] with []
+2022-03-15 13:05:49 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/swagger-ui/**'] with []
+2022-03-15 13:05:49 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/configuration/**'] with []
+2022-03-15 13:05:49 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/webjars/**'] with []
+2022-03-15 13:05:49 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/public'] with []
+2022-03-15 13:05:49 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/v3/api-docs/**'] with []
+2022-03-15 13:05:49 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4ec47913, org.springframework.security.web.context.SecurityContextPersistenceFilter@49ec6d75, org.springframework.security.web.header.HeaderWriterFilter@7517d35e, org.springframework.web.filter.CorsFilter@ee07f1a, org.springframework.security.web.authentication.logout.LogoutFilter@6cb71ce7, com.circles.health.patient.security.JwtTokenFilter@6c678dfc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@151e2d7d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@32b967cf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@17001bce, org.springframework.security.web.session.SessionManagementFilter@793ea69, org.springframework.security.web.access.ExceptionTranslationFilter@6456cf96, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6c91317e]
+2022-03-15 13:05:49 WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-03-15 13:05:49 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8991"]
+2022-03-15 13:05:49 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8991 (http) with context path ''
+2022-03-15 13:05:49 INFO  c.c.h.p.PatientServiceApplication - Started PatientServiceApplication in 10.095 seconds (JVM running for 16.71)
+2022-03-15 13:06:55 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-15 13:06:55 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-03-15 13:06:55 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2022-03-15 13:06:55 INFO  c.c.h.p.security.JwtTokenFilter - Request uri: /patient-service/savewellnesscheck1
+2022-03-15 13:06:55 INFO  c.c.h.patient.security.JwtProvider - Authorization in header value of getBearerToken method : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjhmNDBmOC1hZTY1LTQwZjktODBjYi0xZjBiNjM4YmI0ZmUiLCJwZXJtaXNzaW9ucyI6W10sImlhdCI6MTY0NzMyOTQ1NiwiZXhwIjoxNjQ3MzU4MjU2fQ.PWkn96Nvq8weysb6C2dlLo91fTHI-QzmpsQwcOnDNeY
+2022-03-15 13:06:55 INFO  c.c.h.patient.security.JwtProvider - Bearer token value in Authorization : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjhmNDBmOC1hZTY1LTQwZjktODBjYi0xZjBiNjM4YmI0ZmUiLCJwZXJtaXNzaW9ucyI6W10sImlhdCI6MTY0NzMyOTQ1NiwiZXhwIjoxNjQ3MzU4MjU2fQ.PWkn96Nvq8weysb6C2dlLo91fTHI-QzmpsQwcOnDNeY
+2022-03-15 13:06:55 INFO  c.c.h.p.security.JwtTokenFilter - token value from getBearerToken method : Optional[eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjhmNDBmOC1hZTY1LTQwZjktODBjYi0xZjBiNjM4YmI0ZmUiLCJwZXJtaXNzaW9ucyI6W10sImlhdCI6MTY0NzMyOTQ1NiwiZXhwIjoxNjQ3MzU4MjU2fQ.PWkn96Nvq8weysb6C2dlLo91fTHI-QzmpsQwcOnDNeY]
+2022-03-15 13:06:55 INFO  c.c.h.p.security.JwtTokenFilter - Inside token isPresent condition.
+2022-03-15 13:06:55 INFO  c.c.h.p.security.JwtTokenFilter - tokenUserUniqueId value from getUserSubject method : 868f40f8-ae65-40f9-80cb-1f0b638bb4fe
+2022-03-15 13:06:55 INFO  c.c.h.p.security.JwtTokenFilter - Inside tokenUserUniqueId condition.
+2022-03-15 13:06:55 INFO  c.c.h.p.security.JwtTokenFilter - both uniqueIds same
+2022-03-15 13:06:56 INFO  c.c.h.p.security.JwtTokenFilter - userDetails value from loadUserByUsername. : com.circles.health.patient.security.AppUserDetail@7f375784
+2022-03-15 13:06:56 INFO  c.c.h.p.security.JwtTokenFilter - preAuthenticatedAuthenticationToken done.
+2022-03-15 13:06:56 INFO  c.c.h.p.security.JwtTokenFilter - before doFilter method call.
+2022-03-15 13:06:56 INFO  c.c.h.p.security.JwtTokenFilter - Request uri: /patient-service/savewellnesscheck1
+2022-03-15 13:06:56 INFO  c.c.h.patient.security.JwtProvider - Authorization in header value of getBearerToken method : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjhmNDBmOC1hZTY1LTQwZjktODBjYi0xZjBiNjM4YmI0ZmUiLCJwZXJtaXNzaW9ucyI6W10sImlhdCI6MTY0NzMyOTQ1NiwiZXhwIjoxNjQ3MzU4MjU2fQ.PWkn96Nvq8weysb6C2dlLo91fTHI-QzmpsQwcOnDNeY
+2022-03-15 13:06:56 INFO  c.c.h.patient.security.JwtProvider - Bearer token value in Authorization : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjhmNDBmOC1hZTY1LTQwZjktODBjYi0xZjBiNjM4YmI0ZmUiLCJwZXJtaXNzaW9ucyI6W10sImlhdCI6MTY0NzMyOTQ1NiwiZXhwIjoxNjQ3MzU4MjU2fQ.PWkn96Nvq8weysb6C2dlLo91fTHI-QzmpsQwcOnDNeY
+2022-03-15 13:06:56 INFO  c.c.h.p.security.JwtTokenFilter - token value from getBearerToken method : Optional[eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjhmNDBmOC1hZTY1LTQwZjktODBjYi0xZjBiNjM4YmI0ZmUiLCJwZXJtaXNzaW9ucyI6W10sImlhdCI6MTY0NzMyOTQ1NiwiZXhwIjoxNjQ3MzU4MjU2fQ.PWkn96Nvq8weysb6C2dlLo91fTHI-QzmpsQwcOnDNeY]
+2022-03-15 13:06:56 INFO  c.c.h.p.security.JwtTokenFilter - Inside token isPresent condition.
+2022-03-15 13:06:56 INFO  c.c.h.p.security.JwtTokenFilter - tokenUserUniqueId value from getUserSubject method : 868f40f8-ae65-40f9-80cb-1f0b638bb4fe
+2022-03-15 13:06:56 INFO  c.c.h.p.security.JwtTokenFilter - Inside tokenUserUniqueId condition.
+2022-03-15 13:06:56 INFO  c.c.h.p.security.JwtTokenFilter - both uniqueIds same
+2022-03-15 13:06:56 INFO  c.c.h.p.security.JwtTokenFilter - userDetails value from loadUserByUsername. : com.circles.health.patient.security.AppUserDetail@60defd2
+2022-03-15 13:06:56 INFO  c.c.h.p.security.JwtTokenFilter - preAuthenticatedAuthenticationToken done.
+2022-03-15 13:06:56 INFO  c.c.h.p.security.JwtTokenFilter - before doFilter method call.
+2022-03-15 13:06:56 INFO  c.c.h.p.c.WellnessCheckController - wellnessQuestion for user==  1158
+2022-03-15 13:06:57 DEBUG org.hibernate.SQL - select wellnessch0_.wellness_check_question_id as wellness1_12_0_, wellnessch0_.wellness_check_question as wellness2_12_0_, wellnessch0_.wellness_check_question_category as wellness3_12_0_, wellnessch0_.wellness_check_question_sequence as wellness4_12_0_ from wellness_check_question wellnessch0_ where wellnessch0_.wellness_check_question_id=?
+2022-03-15 13:06:57 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2022-03-15 13:06:57 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness2_12_0_] : [VARCHAR]) - [Little interest or pleasure in doing things]
+2022-03-15 13:06:57 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness3_12_0_] : [VARCHAR]) - [PHQ9]
+2022-03-15 13:06:57 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness4_12_0_] : [INTEGER]) - [1]
+2022-03-15 13:06:57 DEBUG org.hibernate.SQL - select wellnessch0_.wellness_check_question_id as wellness1_12_0_, wellnessch0_.wellness_check_question as wellness2_12_0_, wellnessch0_.wellness_check_question_category as wellness3_12_0_, wellnessch0_.wellness_check_question_sequence as wellness4_12_0_ from wellness_check_question wellnessch0_ where wellnessch0_.wellness_check_question_id=?
+2022-03-15 13:06:57 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [2]
+2022-03-15 13:06:57 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness2_12_0_] : [VARCHAR]) - [Feeling down, depressed, or hopeless.]
+2022-03-15 13:06:57 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness3_12_0_] : [VARCHAR]) - [PHQ9]
+2022-03-15 13:06:57 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness4_12_0_] : [INTEGER]) - [2]
+2022-03-15 13:06:57 DEBUG org.hibernate.SQL - select wellnessch0_.wellness_check_question_id as wellness1_12_0_, wellnessch0_.wellness_check_question as wellness2_12_0_, wellnessch0_.wellness_check_question_category as wellness3_12_0_, wellnessch0_.wellness_check_question_sequence as wellness4_12_0_ from wellness_check_question wellnessch0_ where wellnessch0_.wellness_check_question_id=?
+2022-03-15 13:06:57 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [3]
+2022-03-15 13:06:57 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness2_12_0_] : [VARCHAR]) - [Trouble falling or staying asleep, or sleeping too much]
+2022-03-15 13:06:57 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness3_12_0_] : [VARCHAR]) - [PHQ9]
+2022-03-15 13:06:57 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness4_12_0_] : [INTEGER]) - [3]
+2022-03-15 13:06:57 DEBUG org.hibernate.SQL - select wellnessch0_.wellness_check_question_id as wellness1_12_0_, wellnessch0_.wellness_check_question as wellness2_12_0_, wellnessch0_.wellness_check_question_category as wellness3_12_0_, wellnessch0_.wellness_check_question_sequence as wellness4_12_0_ from wellness_check_question wellnessch0_ where wellnessch0_.wellness_check_question_id=?
+2022-03-15 13:06:57 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [4]
+2022-03-15 13:06:58 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness2_12_0_] : [VARCHAR]) - [Feeling tired or having little energy]
+2022-03-15 13:06:58 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness3_12_0_] : [VARCHAR]) - [PHQ9]
+2022-03-15 13:06:58 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness4_12_0_] : [INTEGER]) - [4]
+2022-03-15 13:06:58 DEBUG org.hibernate.SQL - select wellnessch0_.wellness_check_question_id as wellness1_12_0_, wellnessch0_.wellness_check_question as wellness2_12_0_, wellnessch0_.wellness_check_question_category as wellness3_12_0_, wellnessch0_.wellness_check_question_sequence as wellness4_12_0_ from wellness_check_question wellnessch0_ where wellnessch0_.wellness_check_question_id=?
+2022-03-15 13:06:58 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [5]
+2022-03-15 13:06:58 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness2_12_0_] : [VARCHAR]) - [Poor apetite or overating]
+2022-03-15 13:06:58 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness3_12_0_] : [VARCHAR]) - [PHQ9]
+2022-03-15 13:06:58 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness4_12_0_] : [INTEGER]) - [5]
+2022-03-15 13:06:58 DEBUG org.hibernate.SQL - select wellnessch0_.wellness_check_question_id as wellness1_12_0_, wellnessch0_.wellness_check_question as wellness2_12_0_, wellnessch0_.wellness_check_question_category as wellness3_12_0_, wellnessch0_.wellness_check_question_sequence as wellness4_12_0_ from wellness_check_question wellnessch0_ where wellnessch0_.wellness_check_question_id=?
+2022-03-15 13:06:58 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [6]
+2022-03-15 13:06:58 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness2_12_0_] : [VARCHAR]) - [Feeling bad about yourself - or that you are a failure or have let yourself or family down]
+2022-03-15 13:06:58 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness3_12_0_] : [VARCHAR]) - [PHQ9]
+2022-03-15 13:06:58 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness4_12_0_] : [INTEGER]) - [6]
+2022-03-15 13:06:58 DEBUG org.hibernate.SQL - select wellnessch0_.wellness_check_question_id as wellness1_12_0_, wellnessch0_.wellness_check_question as wellness2_12_0_, wellnessch0_.wellness_check_question_category as wellness3_12_0_, wellnessch0_.wellness_check_question_sequence as wellness4_12_0_ from wellness_check_question wellnessch0_ where wellnessch0_.wellness_check_question_id=?
+2022-03-15 13:06:58 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [7]
+2022-03-15 13:06:58 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness2_12_0_] : [VARCHAR]) - [Trouble concentrating on things, such as reading the newspaper or watching television]
+2022-03-15 13:06:58 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness3_12_0_] : [VARCHAR]) - [PHQ9]
+2022-03-15 13:06:58 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness4_12_0_] : [INTEGER]) - [7]
+2022-03-15 13:06:58 DEBUG org.hibernate.SQL - select wellnessch0_.wellness_check_question_id as wellness1_12_0_, wellnessch0_.wellness_check_question as wellness2_12_0_, wellnessch0_.wellness_check_question_category as wellness3_12_0_, wellnessch0_.wellness_check_question_sequence as wellness4_12_0_ from wellness_check_question wellnessch0_ where wellnessch0_.wellness_check_question_id=?
+2022-03-15 13:06:58 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [8]
+2022-03-15 13:06:59 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness2_12_0_] : [VARCHAR]) - [Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual]
+2022-03-15 13:06:59 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness3_12_0_] : [VARCHAR]) - [PHQ9]
+2022-03-15 13:06:59 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness4_12_0_] : [INTEGER]) - [8]
+2022-03-15 13:06:59 DEBUG org.hibernate.SQL - select wellnessch0_.wellness_check_question_id as wellness1_12_0_, wellnessch0_.wellness_check_question as wellness2_12_0_, wellnessch0_.wellness_check_question_category as wellness3_12_0_, wellnessch0_.wellness_check_question_sequence as wellness4_12_0_ from wellness_check_question wellnessch0_ where wellnessch0_.wellness_check_question_id=?
+2022-03-15 13:06:59 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [9]
+2022-03-15 13:06:59 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness2_12_0_] : [VARCHAR]) - [Thoughts that you would be better off dead, or of hurting yourself in some way]
+2022-03-15 13:06:59 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness3_12_0_] : [VARCHAR]) - [PHQ9]
+2022-03-15 13:06:59 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness4_12_0_] : [INTEGER]) - [9]
+2022-03-15 13:06:59 DEBUG org.hibernate.SQL - select wellnessch0_.wellness_check_question_id as wellness1_12_0_, wellnessch0_.wellness_check_question as wellness2_12_0_, wellnessch0_.wellness_check_question_category as wellness3_12_0_, wellnessch0_.wellness_check_question_sequence as wellness4_12_0_ from wellness_check_question wellnessch0_ where wellnessch0_.wellness_check_question_id=?
+2022-03-15 13:06:59 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [10]
+2022-03-15 13:06:59 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness2_12_0_] : [VARCHAR]) - [How difficult have these problems made it for you to do your work, take care of things at home, or get along with other people]
+2022-03-15 13:06:59 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness3_12_0_] : [VARCHAR]) - [PHQ9]
+2022-03-15 13:06:59 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness4_12_0_] : [INTEGER]) - [10]
+2022-03-15 13:06:59 DEBUG org.hibernate.SQL - select wellnessch0_.wellness_check_question_id as wellness1_12_0_, wellnessch0_.wellness_check_question as wellness2_12_0_, wellnessch0_.wellness_check_question_category as wellness3_12_0_, wellnessch0_.wellness_check_question_sequence as wellness4_12_0_ from wellness_check_question wellnessch0_ where wellnessch0_.wellness_check_question_id=?
+2022-03-15 13:06:59 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [11]
+2022-03-15 13:06:59 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness2_12_0_] : [VARCHAR]) - [Feeling nervous, anxious, or on edge]
+2022-03-15 13:06:59 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness3_12_0_] : [VARCHAR]) - [GAD7]
+2022-03-15 13:06:59 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness4_12_0_] : [INTEGER]) - [11]
+2022-03-15 13:06:59 DEBUG org.hibernate.SQL - select wellnessch0_.wellness_check_question_id as wellness1_12_0_, wellnessch0_.wellness_check_question as wellness2_12_0_, wellnessch0_.wellness_check_question_category as wellness3_12_0_, wellnessch0_.wellness_check_question_sequence as wellness4_12_0_ from wellness_check_question wellnessch0_ where wellnessch0_.wellness_check_question_id=?
+2022-03-15 13:06:59 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [12]
+2022-03-15 13:06:59 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness2_12_0_] : [VARCHAR]) - [Not being able to stop or control worrying]
+2022-03-15 13:06:59 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness3_12_0_] : [VARCHAR]) - [GAD7]
+2022-03-15 13:06:59 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness4_12_0_] : [INTEGER]) - [12]
+2022-03-15 13:06:59 DEBUG org.hibernate.SQL - select wellnessch0_.wellness_check_question_id as wellness1_12_0_, wellnessch0_.wellness_check_question as wellness2_12_0_, wellnessch0_.wellness_check_question_category as wellness3_12_0_, wellnessch0_.wellness_check_question_sequence as wellness4_12_0_ from wellness_check_question wellnessch0_ where wellnessch0_.wellness_check_question_id=?
+2022-03-15 13:06:59 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [13]
+2022-03-15 13:07:00 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness2_12_0_] : [VARCHAR]) - [Worrying too much about different things]
+2022-03-15 13:07:00 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness3_12_0_] : [VARCHAR]) - [GAD7]
+2022-03-15 13:07:00 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness4_12_0_] : [INTEGER]) - [13]
+2022-03-15 13:07:00 DEBUG org.hibernate.SQL - select wellnessch0_.wellness_check_question_id as wellness1_12_0_, wellnessch0_.wellness_check_question as wellness2_12_0_, wellnessch0_.wellness_check_question_category as wellness3_12_0_, wellnessch0_.wellness_check_question_sequence as wellness4_12_0_ from wellness_check_question wellnessch0_ where wellnessch0_.wellness_check_question_id=?
+2022-03-15 13:07:00 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [14]
+2022-03-15 13:07:00 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness2_12_0_] : [VARCHAR]) - [Trouble relaxing]
+2022-03-15 13:07:00 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness3_12_0_] : [VARCHAR]) - [GAD7]
+2022-03-15 13:07:00 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness4_12_0_] : [INTEGER]) - [14]
+2022-03-15 13:07:00 DEBUG org.hibernate.SQL - select wellnessch0_.wellness_check_question_id as wellness1_12_0_, wellnessch0_.wellness_check_question as wellness2_12_0_, wellnessch0_.wellness_check_question_category as wellness3_12_0_, wellnessch0_.wellness_check_question_sequence as wellness4_12_0_ from wellness_check_question wellnessch0_ where wellnessch0_.wellness_check_question_id=?
+2022-03-15 13:07:00 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [15]
+2022-03-15 13:07:00 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness2_12_0_] : [VARCHAR]) - [Being so restless that its hard to sit still]
+2022-03-15 13:07:00 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness3_12_0_] : [VARCHAR]) - [GAD7]
+2022-03-15 13:07:00 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness4_12_0_] : [INTEGER]) - [15]
+2022-03-15 13:07:00 DEBUG org.hibernate.SQL - select wellnessch0_.wellness_check_question_id as wellness1_12_0_, wellnessch0_.wellness_check_question as wellness2_12_0_, wellnessch0_.wellness_check_question_category as wellness3_12_0_, wellnessch0_.wellness_check_question_sequence as wellness4_12_0_ from wellness_check_question wellnessch0_ where wellnessch0_.wellness_check_question_id=?
+2022-03-15 13:07:00 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [16]
+2022-03-15 13:07:00 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness2_12_0_] : [VARCHAR]) - [Becoming easily annoyed or irritable]
+2022-03-15 13:07:00 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness3_12_0_] : [VARCHAR]) - [GAD7]
+2022-03-15 13:07:00 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness4_12_0_] : [INTEGER]) - [16]
+2022-03-15 13:07:00 DEBUG org.hibernate.SQL - select wellnessch0_.wellness_check_question_id as wellness1_12_0_, wellnessch0_.wellness_check_question as wellness2_12_0_, wellnessch0_.wellness_check_question_category as wellness3_12_0_, wellnessch0_.wellness_check_question_sequence as wellness4_12_0_ from wellness_check_question wellnessch0_ where wellnessch0_.wellness_check_question_id=?
+2022-03-15 13:07:00 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [17]
+2022-03-15 13:07:00 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness2_12_0_] : [VARCHAR]) - [Feeling afraid as if something awful might happen.]
+2022-03-15 13:07:00 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness3_12_0_] : [VARCHAR]) - [GAD7]
+2022-03-15 13:07:00 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness4_12_0_] : [INTEGER]) - [17]
+2022-03-15 13:07:00 DEBUG org.hibernate.SQL - select wellnessch0_.wellness_check_question_id as wellness1_12_0_, wellnessch0_.wellness_check_question as wellness2_12_0_, wellnessch0_.wellness_check_question_category as wellness3_12_0_, wellnessch0_.wellness_check_question_sequence as wellness4_12_0_ from wellness_check_question wellnessch0_ where wellnessch0_.wellness_check_question_id=?
+2022-03-15 13:07:00 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [18]
+2022-03-15 13:07:01 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness2_12_0_] : [VARCHAR]) - [How difficult have these problems made it for you to do your work, take care of things at home, or get along with other people.]
+2022-03-15 13:07:01 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness3_12_0_] : [VARCHAR]) - [GAD7]
+2022-03-15 13:07:01 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness4_12_0_] : [INTEGER]) - [18]
+2022-03-15 13:07:01 DEBUG org.hibernate.SQL - select next_val as id_val from hibernate_sequence for update
+2022-03-15 13:07:01 DEBUG org.hibernate.SQL - update hibernate_sequence set next_val= ? where next_val=?
+2022-03-15 13:07:02 DEBUG org.hibernate.SQL - insert into wellness_check_answer (gad7score, phq9score, response_score, user_id, wellness_check_date, wellness_response, wellness_answer_id) values (?, ?, ?, ?, ?, ?, ?)
+2022-03-15 13:07:02 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [8]
+2022-03-15 13:07:02 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [INTEGER] - [9]
+2022-03-15 13:07:02 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [3] as [INTEGER] - [17]
+2022-03-15 13:07:02 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [4] as [BIGINT] - [1158]
+2022-03-15 13:07:02 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [5] as [TIMESTAMP] - [2022-03-15T13:07:01.073412]
+2022-03-15 13:07:02 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [6] as [VARCHAR] - [1:1:05:2,2:2:25:1,3:1:54:0,4:2:05:2,5:2:25:1,6:1:54:0,7:2:05:2,8:2:25:1,9:1:54:0,10:5:12:0,11:1:05:2,12:2:25:1,13:1:54:0,14:1:05:2,15:2:25:1,16:1:54:0,17:1:05:2,18:6:18:0]
+2022-03-15 13:07:02 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [7] as [BIGINT] - [1660]
+2022-03-15 13:07:02 INFO  c.c.h.p.c.WellnessCheckController - Inside wellnessCheckAnswer not null condition ::: com.circles.health.patient.response.SaveWellnessCheckData@85a944e
+2022-03-15 13:07:03 DEBUG org.hibernate.SQL - select user0_.user_id as user_id1_7_, user0_.access_code as access_c2_7_, user0_.created_by as created_3_7_, user0_.created_date as created_4_7_, user0_.dob as dob5_7_, user0_.email as email6_7_, user0_.ethnicity as ethnicit7_7_, user0_.first_name as first_na8_7_, user0_.gender as gender9_7_, user0_.is_active as is_acti10_7_, user0_.is_email_verified as is_emai11_7_, user0_.modified_by as modifie12_7_, user0_.modified_date as modifie13_7_, user0_.sur_name as sur_nam14_7_, user0_.therapist_id as therapi15_7_, user0_.therapist_preference as therapi16_7_, user0_.user_type as user_ty17_7_, user0_.user_unique_id as user_un18_7_, user0_.wellness_check as wellnes19_7_ from user user0_ where user0_.user_id=?
+2022-03-15 13:07:03 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1158]
+2022-03-15 13:07:03 ERROR c.c.h.p.c.WellnessCheckController - Wellness check not saved.null
+2022-03-15 13:09:28 INFO  c.c.h.p.security.JwtTokenFilter - Request uri: /patient-service/savewellnesscheck1
+2022-03-15 13:09:28 INFO  c.c.h.patient.security.JwtProvider - Authorization in header value of getBearerToken method : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjhmNDBmOC1hZTY1LTQwZjktODBjYi0xZjBiNjM4YmI0ZmUiLCJwZXJtaXNzaW9ucyI6W10sImlhdCI6MTY0NzMyOTQ1NiwiZXhwIjoxNjQ3MzU4MjU2fQ.PWkn96Nvq8weysb6C2dlLo91fTHI-QzmpsQwcOnDNeY
+2022-03-15 13:09:28 INFO  c.c.h.patient.security.JwtProvider - Bearer token value in Authorization : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjhmNDBmOC1hZTY1LTQwZjktODBjYi0xZjBiNjM4YmI0ZmUiLCJwZXJtaXNzaW9ucyI6W10sImlhdCI6MTY0NzMyOTQ1NiwiZXhwIjoxNjQ3MzU4MjU2fQ.PWkn96Nvq8weysb6C2dlLo91fTHI-QzmpsQwcOnDNeY
+2022-03-15 13:09:28 INFO  c.c.h.p.security.JwtTokenFilter - token value from getBearerToken method : Optional[eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjhmNDBmOC1hZTY1LTQwZjktODBjYi0xZjBiNjM4YmI0ZmUiLCJwZXJtaXNzaW9ucyI6W10sImlhdCI6MTY0NzMyOTQ1NiwiZXhwIjoxNjQ3MzU4MjU2fQ.PWkn96Nvq8weysb6C2dlLo91fTHI-QzmpsQwcOnDNeY]
+2022-03-15 13:09:28 INFO  c.c.h.p.security.JwtTokenFilter - Inside token isPresent condition.
+2022-03-15 13:09:28 INFO  c.c.h.p.security.JwtTokenFilter - tokenUserUniqueId value from getUserSubject method : 868f40f8-ae65-40f9-80cb-1f0b638bb4fe
+2022-03-15 13:09:28 INFO  c.c.h.p.security.JwtTokenFilter - Inside tokenUserUniqueId condition.
+2022-03-15 13:09:28 INFO  c.c.h.p.security.JwtTokenFilter - both uniqueIds same
+2022-03-15 13:09:29 INFO  c.c.h.p.security.JwtTokenFilter - userDetails value from loadUserByUsername. : com.circles.health.patient.security.AppUserDetail@181a134f
+2022-03-15 13:09:29 INFO  c.c.h.p.security.JwtTokenFilter - preAuthenticatedAuthenticationToken done.
+2022-03-15 13:09:29 INFO  c.c.h.p.security.JwtTokenFilter - before doFilter method call.
+2022-03-15 13:09:29 INFO  c.c.h.p.security.JwtTokenFilter - Request uri: /patient-service/savewellnesscheck1
+2022-03-15 13:09:29 INFO  c.c.h.patient.security.JwtProvider - Authorization in header value of getBearerToken method : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjhmNDBmOC1hZTY1LTQwZjktODBjYi0xZjBiNjM4YmI0ZmUiLCJwZXJtaXNzaW9ucyI6W10sImlhdCI6MTY0NzMyOTQ1NiwiZXhwIjoxNjQ3MzU4MjU2fQ.PWkn96Nvq8weysb6C2dlLo91fTHI-QzmpsQwcOnDNeY
+2022-03-15 13:09:29 INFO  c.c.h.patient.security.JwtProvider - Bearer token value in Authorization : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjhmNDBmOC1hZTY1LTQwZjktODBjYi0xZjBiNjM4YmI0ZmUiLCJwZXJtaXNzaW9ucyI6W10sImlhdCI6MTY0NzMyOTQ1NiwiZXhwIjoxNjQ3MzU4MjU2fQ.PWkn96Nvq8weysb6C2dlLo91fTHI-QzmpsQwcOnDNeY
+2022-03-15 13:09:29 INFO  c.c.h.p.security.JwtTokenFilter - token value from getBearerToken method : Optional[eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjhmNDBmOC1hZTY1LTQwZjktODBjYi0xZjBiNjM4YmI0ZmUiLCJwZXJtaXNzaW9ucyI6W10sImlhdCI6MTY0NzMyOTQ1NiwiZXhwIjoxNjQ3MzU4MjU2fQ.PWkn96Nvq8weysb6C2dlLo91fTHI-QzmpsQwcOnDNeY]
+2022-03-15 13:09:29 INFO  c.c.h.p.security.JwtTokenFilter - Inside token isPresent condition.
+2022-03-15 13:09:29 INFO  c.c.h.p.security.JwtTokenFilter - tokenUserUniqueId value from getUserSubject method : 868f40f8-ae65-40f9-80cb-1f0b638bb4fe
+2022-03-15 13:09:29 INFO  c.c.h.p.security.JwtTokenFilter - Inside tokenUserUniqueId condition.
+2022-03-15 13:09:29 INFO  c.c.h.p.security.JwtTokenFilter - both uniqueIds same
+2022-03-15 13:09:29 INFO  c.c.h.p.security.JwtTokenFilter - userDetails value from loadUserByUsername. : com.circles.health.patient.security.AppUserDetail@1c259494
+2022-03-15 13:09:29 INFO  c.c.h.p.security.JwtTokenFilter - preAuthenticatedAuthenticationToken done.
+2022-03-15 13:09:29 INFO  c.c.h.p.security.JwtTokenFilter - before doFilter method call.
+2022-03-15 13:09:29 INFO  c.c.h.p.c.WellnessCheckController - wellnessQuestion for user==  1640
+2022-03-15 13:09:30 DEBUG org.hibernate.SQL - select wellnessch0_.wellness_check_question_id as wellness1_12_0_, wellnessch0_.wellness_check_question as wellness2_12_0_, wellnessch0_.wellness_check_question_category as wellness3_12_0_, wellnessch0_.wellness_check_question_sequence as wellness4_12_0_ from wellness_check_question wellnessch0_ where wellnessch0_.wellness_check_question_id=?
+2022-03-15 13:09:30 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2022-03-15 13:09:30 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness2_12_0_] : [VARCHAR]) - [Little interest or pleasure in doing things]
+2022-03-15 13:09:30 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness3_12_0_] : [VARCHAR]) - [PHQ9]
+2022-03-15 13:09:30 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness4_12_0_] : [INTEGER]) - [1]
+2022-03-15 13:09:30 DEBUG org.hibernate.SQL - select wellnessch0_.wellness_check_question_id as wellness1_12_0_, wellnessch0_.wellness_check_question as wellness2_12_0_, wellnessch0_.wellness_check_question_category as wellness3_12_0_, wellnessch0_.wellness_check_question_sequence as wellness4_12_0_ from wellness_check_question wellnessch0_ where wellnessch0_.wellness_check_question_id=?
+2022-03-15 13:09:30 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [2]
+2022-03-15 13:09:30 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness2_12_0_] : [VARCHAR]) - [Feeling down, depressed, or hopeless.]
+2022-03-15 13:09:30 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness3_12_0_] : [VARCHAR]) - [PHQ9]
+2022-03-15 13:09:30 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness4_12_0_] : [INTEGER]) - [2]
+2022-03-15 13:09:30 DEBUG org.hibernate.SQL - select wellnessch0_.wellness_check_question_id as wellness1_12_0_, wellnessch0_.wellness_check_question as wellness2_12_0_, wellnessch0_.wellness_check_question_category as wellness3_12_0_, wellnessch0_.wellness_check_question_sequence as wellness4_12_0_ from wellness_check_question wellnessch0_ where wellnessch0_.wellness_check_question_id=?
+2022-03-15 13:09:30 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [3]
+2022-03-15 13:09:30 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness2_12_0_] : [VARCHAR]) - [Trouble falling or staying asleep, or sleeping too much]
+2022-03-15 13:09:30 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness3_12_0_] : [VARCHAR]) - [PHQ9]
+2022-03-15 13:09:30 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness4_12_0_] : [INTEGER]) - [3]
+2022-03-15 13:09:30 DEBUG org.hibernate.SQL - select wellnessch0_.wellness_check_question_id as wellness1_12_0_, wellnessch0_.wellness_check_question as wellness2_12_0_, wellnessch0_.wellness_check_question_category as wellness3_12_0_, wellnessch0_.wellness_check_question_sequence as wellness4_12_0_ from wellness_check_question wellnessch0_ where wellnessch0_.wellness_check_question_id=?
+2022-03-15 13:09:30 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [4]
+2022-03-15 13:09:31 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness2_12_0_] : [VARCHAR]) - [Feeling tired or having little energy]
+2022-03-15 13:09:31 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness3_12_0_] : [VARCHAR]) - [PHQ9]
+2022-03-15 13:09:31 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness4_12_0_] : [INTEGER]) - [4]
+2022-03-15 13:09:31 DEBUG org.hibernate.SQL - select wellnessch0_.wellness_check_question_id as wellness1_12_0_, wellnessch0_.wellness_check_question as wellness2_12_0_, wellnessch0_.wellness_check_question_category as wellness3_12_0_, wellnessch0_.wellness_check_question_sequence as wellness4_12_0_ from wellness_check_question wellnessch0_ where wellnessch0_.wellness_check_question_id=?
+2022-03-15 13:09:31 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [5]
+2022-03-15 13:09:31 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness2_12_0_] : [VARCHAR]) - [Poor apetite or overating]
+2022-03-15 13:09:31 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness3_12_0_] : [VARCHAR]) - [PHQ9]
+2022-03-15 13:09:31 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness4_12_0_] : [INTEGER]) - [5]
+2022-03-15 13:09:31 DEBUG org.hibernate.SQL - select wellnessch0_.wellness_check_question_id as wellness1_12_0_, wellnessch0_.wellness_check_question as wellness2_12_0_, wellnessch0_.wellness_check_question_category as wellness3_12_0_, wellnessch0_.wellness_check_question_sequence as wellness4_12_0_ from wellness_check_question wellnessch0_ where wellnessch0_.wellness_check_question_id=?
+2022-03-15 13:09:31 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [6]
+2022-03-15 13:09:31 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness2_12_0_] : [VARCHAR]) - [Feeling bad about yourself - or that you are a failure or have let yourself or family down]
+2022-03-15 13:09:31 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness3_12_0_] : [VARCHAR]) - [PHQ9]
+2022-03-15 13:09:31 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness4_12_0_] : [INTEGER]) - [6]
+2022-03-15 13:09:31 DEBUG org.hibernate.SQL - select wellnessch0_.wellness_check_question_id as wellness1_12_0_, wellnessch0_.wellness_check_question as wellness2_12_0_, wellnessch0_.wellness_check_question_category as wellness3_12_0_, wellnessch0_.wellness_check_question_sequence as wellness4_12_0_ from wellness_check_question wellnessch0_ where wellnessch0_.wellness_check_question_id=?
+2022-03-15 13:09:31 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [7]
+2022-03-15 13:09:31 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness2_12_0_] : [VARCHAR]) - [Trouble concentrating on things, such as reading the newspaper or watching television]
+2022-03-15 13:09:31 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness3_12_0_] : [VARCHAR]) - [PHQ9]
+2022-03-15 13:09:31 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness4_12_0_] : [INTEGER]) - [7]
+2022-03-15 13:09:32 DEBUG org.hibernate.SQL - select wellnessch0_.wellness_check_question_id as wellness1_12_0_, wellnessch0_.wellness_check_question as wellness2_12_0_, wellnessch0_.wellness_check_question_category as wellness3_12_0_, wellnessch0_.wellness_check_question_sequence as wellness4_12_0_ from wellness_check_question wellnessch0_ where wellnessch0_.wellness_check_question_id=?
+2022-03-15 13:09:32 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [8]
+2022-03-15 13:09:32 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness2_12_0_] : [VARCHAR]) - [Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual]
+2022-03-15 13:09:32 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness3_12_0_] : [VARCHAR]) - [PHQ9]
+2022-03-15 13:09:32 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness4_12_0_] : [INTEGER]) - [8]
+2022-03-15 13:09:32 DEBUG org.hibernate.SQL - select wellnessch0_.wellness_check_question_id as wellness1_12_0_, wellnessch0_.wellness_check_question as wellness2_12_0_, wellnessch0_.wellness_check_question_category as wellness3_12_0_, wellnessch0_.wellness_check_question_sequence as wellness4_12_0_ from wellness_check_question wellnessch0_ where wellnessch0_.wellness_check_question_id=?
+2022-03-15 13:09:32 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [9]
+2022-03-15 13:09:32 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness2_12_0_] : [VARCHAR]) - [Thoughts that you would be better off dead, or of hurting yourself in some way]
+2022-03-15 13:09:32 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness3_12_0_] : [VARCHAR]) - [PHQ9]
+2022-03-15 13:09:32 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness4_12_0_] : [INTEGER]) - [9]
+2022-03-15 13:09:32 DEBUG org.hibernate.SQL - select wellnessch0_.wellness_check_question_id as wellness1_12_0_, wellnessch0_.wellness_check_question as wellness2_12_0_, wellnessch0_.wellness_check_question_category as wellness3_12_0_, wellnessch0_.wellness_check_question_sequence as wellness4_12_0_ from wellness_check_question wellnessch0_ where wellnessch0_.wellness_check_question_id=?
+2022-03-15 13:09:32 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [10]
+2022-03-15 13:09:32 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness2_12_0_] : [VARCHAR]) - [How difficult have these problems made it for you to do your work, take care of things at home, or get along with other people]
+2022-03-15 13:09:32 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness3_12_0_] : [VARCHAR]) - [PHQ9]
+2022-03-15 13:09:32 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness4_12_0_] : [INTEGER]) - [10]
+2022-03-15 13:09:32 DEBUG org.hibernate.SQL - select wellnessch0_.wellness_check_question_id as wellness1_12_0_, wellnessch0_.wellness_check_question as wellness2_12_0_, wellnessch0_.wellness_check_question_category as wellness3_12_0_, wellnessch0_.wellness_check_question_sequence as wellness4_12_0_ from wellness_check_question wellnessch0_ where wellnessch0_.wellness_check_question_id=?
+2022-03-15 13:09:32 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [11]
+2022-03-15 13:09:32 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness2_12_0_] : [VARCHAR]) - [Feeling nervous, anxious, or on edge]
+2022-03-15 13:09:32 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness3_12_0_] : [VARCHAR]) - [GAD7]
+2022-03-15 13:09:32 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness4_12_0_] : [INTEGER]) - [11]
+2022-03-15 13:09:32 DEBUG org.hibernate.SQL - select wellnessch0_.wellness_check_question_id as wellness1_12_0_, wellnessch0_.wellness_check_question as wellness2_12_0_, wellnessch0_.wellness_check_question_category as wellness3_12_0_, wellnessch0_.wellness_check_question_sequence as wellness4_12_0_ from wellness_check_question wellnessch0_ where wellnessch0_.wellness_check_question_id=?
+2022-03-15 13:09:32 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [12]
+2022-03-15 13:09:33 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness2_12_0_] : [VARCHAR]) - [Not being able to stop or control worrying]
+2022-03-15 13:09:33 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness3_12_0_] : [VARCHAR]) - [GAD7]
+2022-03-15 13:09:33 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness4_12_0_] : [INTEGER]) - [12]
+2022-03-15 13:09:33 DEBUG org.hibernate.SQL - select wellnessch0_.wellness_check_question_id as wellness1_12_0_, wellnessch0_.wellness_check_question as wellness2_12_0_, wellnessch0_.wellness_check_question_category as wellness3_12_0_, wellnessch0_.wellness_check_question_sequence as wellness4_12_0_ from wellness_check_question wellnessch0_ where wellnessch0_.wellness_check_question_id=?
+2022-03-15 13:09:33 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [13]
+2022-03-15 13:09:33 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness2_12_0_] : [VARCHAR]) - [Worrying too much about different things]
+2022-03-15 13:09:33 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness3_12_0_] : [VARCHAR]) - [GAD7]
+2022-03-15 13:09:33 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness4_12_0_] : [INTEGER]) - [13]
+2022-03-15 13:09:33 DEBUG org.hibernate.SQL - select wellnessch0_.wellness_check_question_id as wellness1_12_0_, wellnessch0_.wellness_check_question as wellness2_12_0_, wellnessch0_.wellness_check_question_category as wellness3_12_0_, wellnessch0_.wellness_check_question_sequence as wellness4_12_0_ from wellness_check_question wellnessch0_ where wellnessch0_.wellness_check_question_id=?
+2022-03-15 13:09:33 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [14]
+2022-03-15 13:09:33 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness2_12_0_] : [VARCHAR]) - [Trouble relaxing]
+2022-03-15 13:09:33 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness3_12_0_] : [VARCHAR]) - [GAD7]
+2022-03-15 13:09:33 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness4_12_0_] : [INTEGER]) - [14]
+2022-03-15 13:09:33 DEBUG org.hibernate.SQL - select wellnessch0_.wellness_check_question_id as wellness1_12_0_, wellnessch0_.wellness_check_question as wellness2_12_0_, wellnessch0_.wellness_check_question_category as wellness3_12_0_, wellnessch0_.wellness_check_question_sequence as wellness4_12_0_ from wellness_check_question wellnessch0_ where wellnessch0_.wellness_check_question_id=?
+2022-03-15 13:09:33 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [15]
+2022-03-15 13:09:33 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness2_12_0_] : [VARCHAR]) - [Being so restless that its hard to sit still]
+2022-03-15 13:09:33 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness3_12_0_] : [VARCHAR]) - [GAD7]
+2022-03-15 13:09:33 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness4_12_0_] : [INTEGER]) - [15]
+2022-03-15 13:09:33 DEBUG org.hibernate.SQL - select wellnessch0_.wellness_check_question_id as wellness1_12_0_, wellnessch0_.wellness_check_question as wellness2_12_0_, wellnessch0_.wellness_check_question_category as wellness3_12_0_, wellnessch0_.wellness_check_question_sequence as wellness4_12_0_ from wellness_check_question wellnessch0_ where wellnessch0_.wellness_check_question_id=?
+2022-03-15 13:09:33 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [16]
+2022-03-15 13:09:33 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness2_12_0_] : [VARCHAR]) - [Becoming easily annoyed or irritable]
+2022-03-15 13:09:33 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness3_12_0_] : [VARCHAR]) - [GAD7]
+2022-03-15 13:09:33 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness4_12_0_] : [INTEGER]) - [16]
+2022-03-15 13:09:33 DEBUG org.hibernate.SQL - select wellnessch0_.wellness_check_question_id as wellness1_12_0_, wellnessch0_.wellness_check_question as wellness2_12_0_, wellnessch0_.wellness_check_question_category as wellness3_12_0_, wellnessch0_.wellness_check_question_sequence as wellness4_12_0_ from wellness_check_question wellnessch0_ where wellnessch0_.wellness_check_question_id=?
+2022-03-15 13:09:33 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [17]
+2022-03-15 13:09:34 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness2_12_0_] : [VARCHAR]) - [Feeling afraid as if something awful might happen.]
+2022-03-15 13:09:34 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness3_12_0_] : [VARCHAR]) - [GAD7]
+2022-03-15 13:09:34 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness4_12_0_] : [INTEGER]) - [17]
+2022-03-15 13:09:34 DEBUG org.hibernate.SQL - select wellnessch0_.wellness_check_question_id as wellness1_12_0_, wellnessch0_.wellness_check_question as wellness2_12_0_, wellnessch0_.wellness_check_question_category as wellness3_12_0_, wellnessch0_.wellness_check_question_sequence as wellness4_12_0_ from wellness_check_question wellnessch0_ where wellnessch0_.wellness_check_question_id=?
+2022-03-15 13:09:34 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [18]
+2022-03-15 13:09:34 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness2_12_0_] : [VARCHAR]) - [How difficult have these problems made it for you to do your work, take care of things at home, or get along with other people.]
+2022-03-15 13:09:34 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness3_12_0_] : [VARCHAR]) - [GAD7]
+2022-03-15 13:09:34 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellness4_12_0_] : [INTEGER]) - [18]
+2022-03-15 13:09:34 DEBUG org.hibernate.SQL - select next_val as id_val from hibernate_sequence for update
+2022-03-15 13:09:34 DEBUG org.hibernate.SQL - update hibernate_sequence set next_val= ? where next_val=?
+2022-03-15 13:09:35 DEBUG org.hibernate.SQL - insert into wellness_check_answer (gad7score, phq9score, response_score, user_id, wellness_check_date, wellness_response, wellness_answer_id) values (?, ?, ?, ?, ?, ?, ?)
+2022-03-15 13:09:35 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [8]
+2022-03-15 13:09:35 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [INTEGER] - [9]
+2022-03-15 13:09:35 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [3] as [INTEGER] - [17]
+2022-03-15 13:09:35 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [4] as [BIGINT] - [1640]
+2022-03-15 13:09:35 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [5] as [TIMESTAMP] - [2022-03-15T13:09:34.288368]
+2022-03-15 13:09:35 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [6] as [VARCHAR] - [1:1:05:2,2:2:25:1,3:1:54:0,4:2:05:2,5:2:25:1,6:1:54:0,7:2:05:2,8:2:25:1,9:1:54:0,10:5:12:0,11:1:05:2,12:2:25:1,13:1:54:0,14:1:05:2,15:2:25:1,16:1:54:0,17:1:05:2,18:6:18:0]
+2022-03-15 13:09:35 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [7] as [BIGINT] - [1661]
+2022-03-15 13:09:36 INFO  c.c.h.p.c.WellnessCheckController - Inside wellnessCheckAnswer not null condition ::: com.circles.health.patient.response.SaveWellnessCheckData@7b010b1
+2022-03-15 13:09:36 DEBUG org.hibernate.SQL - select user0_.user_id as user_id1_7_, user0_.access_code as access_c2_7_, user0_.created_by as created_3_7_, user0_.created_date as created_4_7_, user0_.dob as dob5_7_, user0_.email as email6_7_, user0_.ethnicity as ethnicit7_7_, user0_.first_name as first_na8_7_, user0_.gender as gender9_7_, user0_.is_active as is_acti10_7_, user0_.is_email_verified as is_emai11_7_, user0_.modified_by as modifie12_7_, user0_.modified_date as modifie13_7_, user0_.sur_name as sur_nam14_7_, user0_.therapist_id as therapi15_7_, user0_.therapist_preference as therapi16_7_, user0_.user_type as user_ty17_7_, user0_.user_unique_id as user_un18_7_, user0_.wellness_check as wellnes19_7_ from user user0_ where user0_.user_id=?
+2022-03-15 13:09:36 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1640]
+2022-03-15 13:09:36 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([user_id1_7_] : [BIGINT]) - [1640]
+2022-03-15 13:09:36 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([access_c2_7_] : [VARCHAR]) - [Pete12]
+2022-03-15 13:09:36 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([created_3_7_] : [VARCHAR]) - [null]
+2022-03-15 13:09:36 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([created_4_7_] : [TIMESTAMP]) - [2022-03-13T10:27:36.964994]
+2022-03-15 13:09:36 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([dob5_7_] : [DATE]) - [1990-02-01]
+2022-03-15 13:09:36 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([email6_7_] : [VARCHAR]) - [bagnallconsultancyltd@gmail.com]
+2022-03-15 13:09:36 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([ethnicit7_7_] : [VARCHAR]) - [White]
+2022-03-15 13:09:36 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([first_na8_7_] : [VARCHAR]) - [Pete]
+2022-03-15 13:09:36 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([gender9_7_] : [VARCHAR]) - [male]
+2022-03-15 13:09:36 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([is_acti10_7_] : [BOOLEAN]) - [null]
+2022-03-15 13:09:36 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([is_emai11_7_] : [BOOLEAN]) - [null]
+2022-03-15 13:09:36 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([modifie12_7_] : [VARCHAR]) - [null]
+2022-03-15 13:09:36 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([modifie13_7_] : [TIMESTAMP]) - [null]
+2022-03-15 13:09:36 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([sur_nam14_7_] : [VARCHAR]) - [Bagnall]
+2022-03-15 13:09:36 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([therapi15_7_] : [BIGINT]) - [6]
+2022-03-15 13:09:36 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([therapi16_7_] : [VARCHAR]) - [Mhia Booking]
+2022-03-15 13:09:36 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([user_ty17_7_] : [VARCHAR]) - [PATIENT]
+2022-03-15 13:09:36 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([user_un18_7_] : [VARCHAR]) - [00d4f410-e9a4-4c4d-99b0-6b5b2044a9b9]
+2022-03-15 13:09:36 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([wellnes19_7_] : [VARCHAR]) - [No]
+2022-03-15 13:09:37 INFO  c.c.h.p.service.UserServiceImpl - Inside updateUser method of UserServiceImpl class ::: com.circles.health.patient.entity.User@3da0b051
+2022-03-15 13:09:37 DEBUG org.hibernate.SQL - update user set wellness_check=? where user_id=?
+2022-03-15 13:09:37 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [Yes]
+2022-03-15 13:09:37 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [BIGINT] - [1640]
+2022-03-15 13:09:38 INFO  c.c.h.p.c.WellnessCheckController - User wellness check updated successfully.

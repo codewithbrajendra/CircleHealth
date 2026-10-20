@@ -1,0 +1,20 @@
+package com.circles.health.patient.service;
+
+import com.circles.health.patient.response.AnalyticsReportingQueryData;
+import com.circles.health.patient.response.PatientAnalyticsData;
+import com.circles.health.patient.response.PatientAnalyticsSingleUserCSV;
+import com.circles.health.patient.response.UserAnalyticsBookingDetails;
+import com.circles.health.patient.response.UserAnalyticsBookingDetailsList;
+
+public interface PatientAnalyticsService {
+
+	PatientAnalyticsData getAnalyticsDataForAllPatient(AnalyticsReportingQueryData analyticsReportingQueryData);
+
+	PatientAnalyticsData getAnalyticsDataForParticularUser(AnalyticsReportingQueryData analyticsReportingQueryData);
+
+	PatientAnalyticsSingleUserCSV getAnalyticsDataForSingleUserCSV(
+			AnalyticsReportingQueryData analyticsReportingQueryData);
+	UserAnalyticsBookingDetailsList getAnalyticsDataForParticularCSVUserForBooking(AnalyticsReportingQueryData analyticsReportingQueryData);
+
+
+}

@@ -1,0 +1,69 @@
+2022-03-15 13:04:39 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.6.Final
+2022-03-15 13:04:39 INFO  c.c.admin.AuthServiceApplication - Starting AuthServiceApplication using Java 11.0.10 on Techments-MacBook-Pro.local with PID 41722 (/Users/brajendrasingh/Documents/Production_Environment/28-2-2022/circleshealthback/auth-service/target/classes started by brajendrasingh in /Users/brajendrasingh/Documents/Production_Environment/28-2-2022/circleshealthback/auth-service)
+2022-03-15 13:04:39 INFO  c.c.admin.AuthServiceApplication - The following profiles are active: prod
+2022-03-15 13:04:39 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-15 13:04:39 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-15 13:04:41 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-15 13:04:41 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 128 ms. Found 4 JPA repository interfaces.
+2022-03-15 13:04:41 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties' of type [org.springframework.boot.autoconfigure.task.TaskExecutionProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-15 13:04:41 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'asyncConfiguration' of type [com.circlesHealth.admin.config.AsyncConfiguration$$EnhancerBySpringCGLIB$$aba5120f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-15 13:04:42 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@e406839' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-15 13:04:42 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-15 13:04:42 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8990 (http)
+2022-03-15 13:04:42 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8990"]
+2022-03-15 13:04:42 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-03-15 13:04:42 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-03-15 13:04:42 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-03-15 13:04:42 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2820 ms
+2022-03-15 13:04:43 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-15 13:04:43 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.25.Final
+2022-03-15 13:04:43 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-15 13:04:43 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-03-15 13:04:46 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-03-15 13:04:46 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-15 13:04:50 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-15 13:04:50 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-15 13:04:51 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-03-15 13:04:51 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-15 13:04:52 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-03-15 13:04:52 INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'taskExecutor'
+2022-03-15 13:04:52 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/v2/api-docs'] with []
+2022-03-15 13:04:52 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/swagger-resources/**'] with []
+2022-03-15 13:04:52 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/swagger-ui.html'] with []
+2022-03-15 13:04:52 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/swagger-ui/**'] with []
+2022-03-15 13:04:52 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/configuration/**'] with []
+2022-03-15 13:04:52 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/webjars/**'] with []
+2022-03-15 13:04:52 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/public'] with []
+2022-03-15 13:04:52 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/v3/api-docs/**'] with []
+2022-03-15 13:04:53 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3ae6a1b3, org.springframework.security.web.context.SecurityContextPersistenceFilter@231bdcd1, org.springframework.security.web.header.HeaderWriterFilter@23cce9f5, org.springframework.web.filter.CorsFilter@28cd0a4e, org.springframework.security.web.authentication.logout.LogoutFilter@5d37e3f8, com.circlesHealth.admin.security.JwtTokenFilter@672960bf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6bf1d869, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@25f54714, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2f770120, org.springframework.security.web.session.SessionManagementFilter@312c4285, org.springframework.security.web.access.ExceptionTranslationFilter@17afba86, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@327ce52]
+2022-03-15 13:04:53 INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2022-03-15 13:04:53 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8990"]
+2022-03-15 13:04:53 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8990 (http) with context path ''
+2022-03-15 13:04:53 INFO  c.c.a.j.UserInvalidSessionDeletionJob - Deleting users invalid session data
+2022-03-15 13:04:53 INFO  c.c.admin.AuthServiceApplication - Started AuthServiceApplication in 14.099 seconds (JVM running for 20.894)
+2022-03-15 13:04:53 DEBUG org.hibernate.SQL - select usersessio0_.user_session_id as user_ses1_5_, usersessio0_.is_active as is_activ2_5_, usersessio0_.created_date as created_3_5_, usersessio0_.expires_at as expires_4_5_, usersessio0_.modified_date as modified5_5_, usersessio0_.refresh_token as refresh_6_5_, usersessio0_.session_unique_id as session_7_5_, usersessio0_.token as token8_5_, usersessio0_.user_id as user_id9_5_ from user_session usersessio0_ where usersessio0_.is_active=? or usersessio0_.expires_at<?
+2022-03-15 13:04:53 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BOOLEAN] - [false]
+2022-03-15 13:04:53 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [TIMESTAMP] - [2022-03-15T13:04:53.213775]
+2022-03-15 13:04:54 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-15 13:04:54 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-03-15 13:04:54 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2022-03-15 13:19:53 INFO  c.c.a.j.UserInvalidSessionDeletionJob - Deleting users invalid session data
+2022-03-15 13:19:53 DEBUG org.hibernate.SQL - select usersessio0_.user_session_id as user_ses1_5_, usersessio0_.is_active as is_activ2_5_, usersessio0_.created_date as created_3_5_, usersessio0_.expires_at as expires_4_5_, usersessio0_.modified_date as modified5_5_, usersessio0_.refresh_token as refresh_6_5_, usersessio0_.session_unique_id as session_7_5_, usersessio0_.token as token8_5_, usersessio0_.user_id as user_id9_5_ from user_session usersessio0_ where usersessio0_.is_active=? or usersessio0_.expires_at<?
+2022-03-15 13:19:53 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BOOLEAN] - [false]
+2022-03-15 13:19:53 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [TIMESTAMP] - [2022-03-15T13:19:53.335656]
+2022-03-15 13:34:53 INFO  c.c.a.j.UserInvalidSessionDeletionJob - Deleting users invalid session data
+2022-03-15 13:34:53 WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@16308e96 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-03-15 13:34:53 DEBUG org.hibernate.SQL - select usersessio0_.user_session_id as user_ses1_5_, usersessio0_.is_active as is_activ2_5_, usersessio0_.created_date as created_3_5_, usersessio0_.expires_at as expires_4_5_, usersessio0_.modified_date as modified5_5_, usersessio0_.refresh_token as refresh_6_5_, usersessio0_.session_unique_id as session_7_5_, usersessio0_.token as token8_5_, usersessio0_.user_id as user_id9_5_ from user_session usersessio0_ where usersessio0_.is_active=? or usersessio0_.expires_at<?
+2022-03-15 13:34:53 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BOOLEAN] - [false]
+2022-03-15 13:34:53 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [TIMESTAMP] - [2022-03-15T13:34:53.214220]
+2022-03-15 13:34:54 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([user_ses1_5_] : [BIGINT]) - [312]
+2022-03-15 13:34:54 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([is_activ2_5_] : [BOOLEAN]) - [true]
+2022-03-15 13:34:54 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([created_3_5_] : [TIMESTAMP]) - [2022-03-14T13:33:35.119617]
+2022-03-15 13:34:54 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([expires_4_5_] : [TIMESTAMP]) - [2022-03-15T13:33:35.118837]
+2022-03-15 13:34:54 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([modified5_5_] : [TIMESTAMP]) - [2022-03-14T13:33:35.119617]
+2022-03-15 13:34:54 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([refresh_6_5_] : [VARCHAR]) - [eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxMjM0LTEyMzQiLCJwZXJtaXNzaW9ucyI6W10sImlhdCI6MTY0NzI0NTAxNSwiZXhwIjoxNjQ3MzMxNDE1fQ.95E9UtDFj6aJzxfBr31MbV-5H_mAOIxmHluDOi7ygAQ]
+2022-03-15 13:34:54 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([session_7_5_] : [VARCHAR]) - [d4977153-5240-4620-9c34-db0c32878c9f]
+2022-03-15 13:34:54 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([token8_5_] : [VARCHAR]) - [eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxMjM0LTEyMzQiLCJwZXJtaXNzaW9ucyI6W10sImlhdCI6MTY0NzI0NTAxNSwiZXhwIjoxNjQ3MjczODE1fQ.It8-qasWXakFb8wq0bCc9rieDZ_qaPqcIC9oVx4lNu8]
+2022-03-15 13:34:54 TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([user_id9_5_] : [BIGINT]) - [1]
+2022-03-15 13:34:54 DEBUG org.hibernate.SQL - delete from user_session where user_session_id=?
+2022-03-15 13:34:54 TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [312]
